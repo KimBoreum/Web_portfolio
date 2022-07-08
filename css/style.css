@@ -153,28 +153,31 @@ h5{
   font-size: 14px;
 }
 
-.col-md-4 img, .col-md-6 img{
+.pb{
+  padding-top: 70px;
+}
+
+.col-md-4 img, .col-md-6 img, .col-md-12 img{
   width: 100%;
   transition:all 0.5s;
 }
 
-.col-md-4 img:hover, .col-md-6 img:hover{
+.col-md-4 img:hover, .col-md-6 img:hover, .col-md-12:hover{
   transform:scale(1.03, 1.03);
 }
 
-.col-md-4 h1, .col-md-6 h1{
+.col-md-4 h1, .col-md-6 h1, .col-md-12 h1{
   color: white;
   font-family: 'NanumSquare';
   font-size: 14px;
   padding-top: 5px;
 }
 
-.col-md-4 h3, .col-md-6 h3{
+.col-md-4 h3, .col-md-6 h3, .col-md-12 h3{
   color: white;
   font-family: 'NanumSquare';
   font-size: 24px;
 }
-
 
 #fh5co-header,
 .fh5co-cover {
